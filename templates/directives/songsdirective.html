@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SongsDirective</title>
+    <meta charset="utf-8"/>
+</head>
+<body>
+ <div class="container">
+  <div class="row">
+   <div class="songsimagecase">
+    <div class="col-lg-12">
+     <div class="col-lg-3 col-md-4 col-sm-6" data-ng-repeat="single in singles">
+       <img data-ng-src="{{single.cover}}" class="songimg" alt=""/><p class="songstext1"><p class="tracksong" data-ng-bind="single.name">
+       </p><p class="songstext1">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+       <a href="https://itunes.apple.com/gb/artist/the-monkees/id4512388"><p class="songstext">Purchase on itunes</p>
+       </a><audio data-ng-src="{{single.track}}" controls></audio>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ </body>
+</html>
+

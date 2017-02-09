@@ -1,0 +1,2156 @@
+/*Top padding for all pages*/
+
+.Ab
+{
+ padding-top: 59px;
+ padding-left: 100px;
+ padding-right: 100px;
+}
+
+
+/*Page padding*/
+
+html, body
+{
+ min-height: 100%;
+ height: 100%;
+ max-height: 100%;
+}
+
+/*Pagetext*/
+
+.hometoptext
+{
+ padding-bottom: 15px;
+}
+
+.homebottomtext
+{
+ padding-bottom: 15px;
+ margin-right: 70px;
+}
+
+.homeheadertext
+{
+ padding-right: 6%;	
+}
+
+.eventsbottomtext
+{
+ padding-bottom: 15px;
+}
+
+.songstext
+{
+ padding-bottom: 15px;
+}
+
+.thumbnail img /*for gallery*/
+{
+ padding-bottom: 15px;	
+}
+
+.tancbottomtext
+{
+ padding-bottom: 15px;	
+}
+
+h4
+{
+ text-align: center;
+}
+
+h5
+{
+ text-align: center;
+}
+
+p
+{
+ text-align: center;
+}
+
+
+/*Header image*/
+
+#banner
+{
+ max-width: 100%;
+ max-height: auto;
+}
+
+.imgwrapper 
+{
+ width: 100%;
+ height: 50%;
+ padding-left: 48px;
+}
+
+
+/*Navbar*/
+
+.container1
+{
+ width: 100%;
+}
+
+.navbar-header 
+{
+ padding-top: 10px;
+ padding-right:44%;
+ float:right;
+}
+
+.navbar-inverse
+{
+ width: 100%;
+}
+
+.navbar-right
+{
+ width: 100%;
+ position: relative;
+ padding-left: 449px;
+ }
+
+ ul  
+{
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ text-align: center;
+ overflow: hidden;
+}
+
+li 
+{
+ display: inline-block;
+}
+
+li a 
+{
+ display: block;
+ color: grey;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+}
+
+li a:hover 
+{
+ color: white;
+ background-color: #222;
+}
+
+
+/*Image header link*/
+
+img.ba
+{
+ height: 130%;
+ width: 45%;
+ align-items: center;
+ float: right;  
+ padding-left: 28.5%;
+}
+
+.navbar-brand
+{
+ float:none;
+ padding:none;
+ font-size:none;
+}
+
+.col-lg-6
+{
+ 
+ margin-left: auto;
+ margin-right: auto;
+ padding-right: 10px;
+ padding-bottom: 10px;
+}
+
+
+/*Band bio images*/
+
+.col-lg-12
+{
+ display: inline-block;
+ margin-left: auto;
+ margin-right: auto;
+ padding-right: 108px;
+}
+
+.biotext1 
+{
+ color: #333;
+ font-style: italic;
+ text-align: center;
+ font-size: 15px;
+}
+
+
+/*Events*/
+
+.pasteventstext
+{
+ padding-right: 40px;
+ margin-right: 70px;
+ text-align: center;
+}
+
+.eventstext1
+{
+ color: #333;
+ font-style: italic;
+ text-align: center;
+ font-size: 15px;
+}
+
+.eventsheader
+{
+ padding-right: 7%;
+}
+
+
+/*Songs*/
+
+.tracksong
+{
+ padding-right: 12%;
+}
+
+.col-md-12.boxpadding
+{
+ padding-top: 0%;
+ padding-bottom: 1%;
+ padding-right: 11%;
+}
+
+.songstext1
+{
+ color: #333;
+ font-style: italic;
+ text-align: center;
+ font-size: 15px;
+ padding-right: 13%;
+}
+
+.songheadtext
+{
+ padding-top: 1%;	
+}
+
+.songstext
+{
+ padding-right: 20px;
+ padding-bottom: 24px;
+}
+
+.songlinktext
+{
+ padding-right: 20px;	
+}
+
+img.songimg
+{
+ text-align: center; 
+ padding-left: 2px;
+}
+
+a.thumbnail
+{
+ text-decoration: none;
+ border-style: none;
+ border-radius: none; 
+}
+
+a.thumbnail:hover 
+{ 
+ outline: none;
+ outline-style: none; 
+ outline-color: black;
+}
+
+.col-md-3
+{
+ float: right;
+ padding-left: 4%;
+ padding-right: 1%
+}
+
+audio
+{
+ display: inline-block;
+ vertical-align: baseline;
+ padding-bottom: 28%;
+}
+
+/*Gallery*/
+
+.galleryheadtext
+{
+ padding-top: 1%;
+}
+
+
+/*Bookings*/
+
+.bookingsheadtext
+{
+ padding-top: 1%;	
+}
+
+.col-md-12
+{
+ display: inline-block;
+ text-align: center;
+ margin-left: 0;
+ margin-right: 0;
+ padding-right: 100px;
+ padding-top: 1%;
+ padding-bottom: 5%;
+}
+
+.btn-primary 
+{
+ color: #fff;
+ background-color: grey;
+ border-color: grey;
+}
+
+.btn-primary:hover 
+{
+ color: #fff;
+ background-color: #222;
+ border-color: grey;
+}
+
+/*Footer*/
+
+.footer-bs {
+    background-color: #222;
+	padding: 10px 40px;
+	padding-top: 0px;
+	color: rgba(255,255,255,1.00);
+}
+.footer-bs .footer-brand, .footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { padding:10px 25px; }
+.footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-color: transparent; }
+.footer-bs .footer-brand h2 { margin:0px 0px 10px; }
+.footer-bs .footer-brand p { font-size:12px; color:rgba(255,255,255,0.70); }
+
+.footer-bs .footer-nav ul.pages { list-style:none; padding:0px; }
+.footer-bs .footer-nav ul.pages li { padding:5px 0px;}
+.footer-bs .footer-nav ul.pages a { color: grey; font-weight:bold; text-transform:uppercase; }
+.footer-bs .footer-nav ul.pages a:hover { color: white; text-decoration:none; }
+.footer-bs .footer-nav h4 {
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-bottom:10px;
+}
+
+.footer-bs .footer-nav ul.list { list-style:none; padding:0px; }
+.footer-bs .footer-nav ul.list li { padding:5px 0px;}
+.footer-bs .footer-nav ul.list a { color: grey; }
+.footer-bs .footer-nav ul.list a:hover { color: white; text-decoration:none; }
+
+.footer-bs .footer-social ul { list-style:none; padding:0px; }
+.footer-bs .footer-social h4 {
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+.footer-bs .footer-social li { padding:5px 4px;}
+.footer-bs .footer-social a { color: grey;}
+.footer-bs .footer-social a:hover { color:white; text-decoration:none; }
+
+.footer-bs .footer-ns h4 
+{
+ font-size: 11px;
+ text-transform: uppercase;
+ letter-spacing: 3px;
+ margin-bottom: 10px;
+ padding-right:15%;
+}
+.footer-bs .footer-ns p { font-size:12px; color:rgba(255,255,255,0.70); padding-right: 15%; }
+
+@media (min-width: 768px) {
+	.footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-left:solid 0px rgba(255,255,255,0.10); }
+}
+
+.input-group input
+{
+ color: #333;
+}
+
+.input-group button
+{
+ color: white;
+ padding-top: 1.4%;
+ background-color: #444;
+ border-color: grey;
+ border-radius: 4px;
+}
+
+.input-group p
+{
+ padding-left: 10%;
+ padding-top: 2%
+}
+
+.footerimg
+{
+ padding-top: 5px;
+ padding-bottom: 5px;
+ width: 30%;
+ height: 30%;
+ margin-left:37%;
+}
+
+
+/* Medium devices (desktops, 992px and up) */
+@media (max-width: 992px){
+
+/*Top padding for all pages*/
+
+.Ab
+{
+ padding-top: 59px;
+ padding-left: 100px;
+ padding-right: 100px;
+}
+
+
+/*Page padding*/
+
+html, body
+{
+ max-height: 100%;
+ max-width: 100%;
+}
+
+ body 
+{
+ overflow-x: hidden !important;
+}
+    
+.container 
+{
+ max-width: 100% !important;
+ overflow-x: hidden !important;
+}
+
+/*Pagetext*/
+
+.homeheadertext
+{
+ padding-left: 8%;
+}
+
+.hometoptext
+{
+ padding-bottom: 15px;
+}
+
+.homebottomtext
+{
+ padding-bottom: 15px;
+ margin-right: 0%;
+}
+
+.eventsbottomtext
+{
+ padding-bottom: 15px;
+ text-align: center;
+ margin-left: -13%;
+ margin-right: -13%;
+}
+
+.songstext
+{
+ padding-bottom: 15px;
+}
+
+.thumbnail img /*for gallery*/
+{
+ padding-bottom: 15px;	
+}
+
+.tancbottomtext
+{
+ padding-bottom: 15px;	
+}
+
+h4
+{
+ text-align: center;
+}
+
+h5
+{
+ text-align: center;
+}
+
+p
+{
+ text-align: center;
+}
+
+
+/*Header image*/
+
+#banner
+{
+ max-width: 100%;
+ max-height: auto;
+}
+
+.imgwrapper 
+{
+ width: 100%;
+ height: 50%;
+ padding-left: 0%;
+ padding-top: 0.3%;
+}
+
+
+/*Navbar*/
+
+.container1
+{
+ width: 100%;
+}
+
+.navbar-header 
+{
+ padding-top: 10px;
+ padding-right:44%;
+ float:right;
+}
+
+.navbar-inverse
+{
+ width: 100%;
+}
+
+.navbar-right
+{
+ width: 100%;
+ position: relative;
+ padding-left:30.7%;
+ padding-bottom: 1%;
+}
+
+ ul  
+{
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ text-align: center;
+ overflow: hidden;
+}
+
+li 
+{
+ display: inline-block;
+}
+
+li a 
+{
+ display: block;
+ color: grey;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+}
+
+li a:hover 
+{
+ color: white;
+ background-color: #222;
+}
+
+
+/*Image header link*/
+
+img.ba
+{
+ height: 100%;
+ width: 45%;
+ align-items: center;
+ float: right;  
+ padding-left: 28.5%;
+}
+
+.col-lg-6
+{
+ 
+ margin-left: auto;
+ margin-right: auto;
+ padding-right: 10px;
+ padding-bottom: 10px;
+}
+
+
+/*Band bio images & Gallery*/
+
+.bioimagecase .col-lg-12
+{
+ display: inline-block;
+ margin-left: 2%;
+ position: relative;
+ padding-right: 0.6%;
+}
+
+.bioimgsize
+{
+ width: 100%;
+ height: 100%;
+}
+
+.biotext1 
+{
+ color: #333;
+ font-style: italic;
+ text-align: center;
+ font-size: 13px;
+}
+
+.bioimagecase .col-md-4
+{
+ width: 24%;
+}
+
+/*Events*/
+
+.eventsheadtext
+{
+ padding-top: 1%;	
+}
+
+.eventsheader
+{
+ padding-left: 9%;
+}
+
+.pasteventstext
+{
+ margin-left: 7%;
+ margin-right: 7%;
+ padding-left:4%;
+}
+
+.eventstext1
+{
+ color: #333;
+ font-style: italic;
+ text-align: center;
+ font-size: 13px;
+}
+
+.eventimg
+{
+ width: 100%;
+ height: 100%;
+}
+
+.eventsimagecase .col-md-4
+{
+ width: 24%;	
+}
+
+.eventsimagecase .col-lg-12
+{
+ display: inline-block;
+ margin-left: 2%;
+ position: relative;
+ padding-right: 0.6%;
+}
+
+.eventsimagecase h4
+{
+ padding-right: 3%;
+}
+
+/*Songs*/
+
+.tracksong
+{
+ display: inline-block;
+ font-size: 10px;
+ text-align: center;
+}
+
+.songheadtext
+{
+ padding-left: 0.6%;
+}
+
+.col-md-12.boxpadding
+{
+ padding-top: 0%;
+ padding-bottom: 1%;
+ padding-right: 11%;
+}
+
+.songstext
+{
+ padding-left: 13%;
+ font-size: 10px;
+ padding-bottom: 24px;
+}
+
+.songstext1
+{
+ color: #333;
+ font-style: italic;
+ text-align: center;
+ font-size: 13px;
+ padding-top: 8%;
+ padding-left: 14%;
+ margin-left: -27%;
+ margin-right: -26%;
+}
+
+.songsimagecase
+{
+ padding-left: 14%;
+
+}
+
+.songsimagecase .col-md-4
+{
+ width: 24.8%
+}
+
+.songsimagecase .col-lg-12
+{
+ display: inline-block;
+ margin-left: -10%;
+ padding-right:7%;	
+}
+
+.songsimagecase audio
+{
+display: inline-block;
+vertical-align: baseline;
+width: 100%;
+margin-left: 2%;
+padding-bottom: 50px;
+}
+
+.col-md-4 .songimg
+{
+ width: 145px;
+ height: 120px;
+ padding-right: 1%;
+ margin-left: -8px	
+}
+
+.spacingsongs .row
+{
+ margin-right: -40px;
+ margin-left: -50px
+}
+
+.Ab .songsimagecase
+{
+ padding-right: 2%;
+}
+
+.songimg
+{
+ width: 100%;
+ height: 100%;	
+}
+
+img.songimg
+{
+ text-align: center;
+ padding-left: 5%;
+}
+
+a.thumbnail
+{
+ text-decoration: none;
+ border-style: none;
+ border-radius: none; 
+}
+
+a.thumbnail:hover 
+{ 
+ outline: none;
+ outline-style: none; 
+ outline-color: black;
+}
+
+.col-md-3
+{
+ float: right;
+ padding-left: 4%;
+ padding-right: 1%
+}
+
+.col-md-12.boxpadding
+{
+ float: right;
+ padding-right: 12.6%;
+}
+
+div.searchbox
+{
+ padding-right: 2%;
+}
+
+
+/*Gallery*/
+
+.galleryheadtext
+{
+ padding-right: 1%;
+}
+
+.Ab .gallimg
+{
+ padding-left: 100px;
+ padding-right: 10px;
+}
+
+.gallimg .col-md-4
+{
+ width: 25%;	
+}
+
+
+/*Bookings*/
+
+.col-md-12
+{
+ display: inline-block;
+ text-align: center;
+ margin-left: 0;
+ margin-right: 0;
+ padding-left: 14%;
+ padding-top: 1%;
+ padding-bottom: 5%;
+}
+
+.btn-primary 
+{
+ color: #fff;
+ background-color: grey;
+ border-color: grey;
+}
+
+.btn-primary:hover 
+{
+ color: #fff;
+ background-color: #222;
+ border-color: grey;
+}
+
+.submitbtn
+{
+ padding-left: 5%;
+}
+
+.well well-sm .col-md-6
+{
+ width: 45%;
+}
+
+
+/*Footer*/
+
+.footer-bs {
+    background-color: #222;
+	padding: 10px 40px;
+	padding-top: 0px;
+	color: rgba(255,255,255,1.00);
+}
+.footer-bs .footer-brand, .footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { padding:10px 25px; }
+.footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-color: transparent; }
+.footer-bs .footer-brand h2 { margin:0px 0px 10px; }
+.footer-bs .footer-brand p { font-size:12px; color:rgba(255,255,255,0.70); }
+
+.footer-bs .footer-nav ul.pages { list-style:none; padding:0px; font-size: 89%; }
+.footer-bs .footer-nav ul.pages li { padding:5px 0px;}
+.footer-bs .footer-nav ul.pages a { color: grey; font-weight:bold; text-transform:uppercase; }
+.footer-bs .footer-nav ul.pages a:hover { color: white; text-decoration:none; }
+.footer-bs .footer-nav h4 {
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-bottom:10px;
+}
+
+.footer-bs .footer-nav ul.list { list-style:none; padding:0px; }
+.footer-bs .footer-nav ul.list li { padding:5px 0px;}
+.footer-bs .footer-nav ul.list a { color: grey; }
+.footer-bs .footer-nav ul.list a:hover { color: white; text-decoration:none; }
+
+.footer-bs .footer-social ul { list-style:none; padding:0px; }
+.footer-bs .footer-social h4 {
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+.footer-bs .footer-social li { padding:5px 4px;}
+.footer-bs .footer-social a { color: grey;}
+.footer-bs .footer-social a:hover { color:white; text-decoration:none; }
+
+.footer-bs .footer-ns h4 {
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-bottom:10px;
+	padding-right: 13%;
+}
+.footer-bs .footer-ns p { font-size:12px; color:rgba(255,255,255,0.70); padding-right: 13%; }
+
+@media (min-width: 768px) {
+	.footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-left:solid 0px rgba(255,255,255,0.10); }
+}
+
+.input-group input
+{
+ color: #333;
+}
+
+.input-group button
+{
+ color: white;
+ padding-top: 1.4%;
+ background-color: #444;
+ border-color:grey;
+ margin: 4%;
+ margin-left: 0%;
+ border-radius: 4px;
+}
+
+.input-group p
+{
+ text-align: left;
+ margin-left: 4.7%;
+ padding-top: 2%;
+}
+
+.footerimg
+{
+ padding-top: none;
+ padding-left: none;
+ width: none;
+ height: none;
+}
+
+.footer-bs .footer-social ul
+{
+ padding-right: 2%;
+}
+
+.inputfooter
+{
+ padding-left: none;
+ padding-right: none;
+}
+
+p.ng-binding
+{
+ padding-left: 23%;
+}
+
+div.validtxt
+{
+ text-align: left;	
+}
+
+}
+
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 768px){
+
+/*Top padding for all pages*/
+
+.Ab
+{
+ padding-top: 59px;
+ padding-left: 100px;
+ padding-right: 100px;
+}
+
+
+/*Page padding*/
+
+html, body
+{
+ max-height: 100%;
+ max-width: 100%;
+}
+
+ body 
+{
+ overflow-x: hidden !important;
+}
+    
+.container 
+{
+ max-width: 100% !important;
+ overflow-x: hidden !important;
+}
+
+/*Pagetext*/
+
+.homeheadertext
+{
+ padding-right: 6%;
+}
+
+.hometoptext
+{
+ padding-bottom: 15px;
+}
+
+.homebottomtext
+{
+ padding-bottom: 15px;
+}
+
+.eventsbottomtext
+{
+ padding-bottom: 15px;
+ text-align: center;
+ margin-left: -13%;
+ margin-right: -13%;
+}
+
+.songstext
+{
+ padding-bottom: 15px;
+}
+
+.thumbnail img /*for gallery*/
+{
+ padding-bottom: 15px;	
+}
+
+.tancbottomtext
+{
+ padding-bottom: 15px;	
+}
+
+h4
+{
+ text-align: center;
+}
+
+h5
+{
+ text-align: center;
+}
+
+p
+{
+ text-align: center;
+}
+
+
+/*Header image*/
+
+#banner
+{
+ max-width: 100%;
+ max-height: auto;
+}
+
+.imgwrapper 
+{
+ width: 100%;
+ height: 50%;
+ padding-left: 0%;
+ padding-top: 1.5%;
+}
+
+
+/*Navbar*/
+
+.container1
+{
+ width: 100%;
+}
+
+.navbar-header 
+{
+ padding-top: 10px;
+ padding-right:44%;
+ float:right;
+}
+
+.navbar-inverse
+{
+ width: 100%;
+ padding-bottom: 1.5%;
+}
+
+.navbar-right
+{
+ width: 100%;
+ position: relative;
+ padding-top: 1%;
+ padding-left: 25.1%;
+}
+
+ ul  
+{
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ text-align: center;
+ overflow: hidden;
+}
+
+li 
+{
+ display: inline-block;
+}
+
+li a 
+{
+ display: block;
+ color: grey;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+}
+
+li a:hover 
+{
+ color: white;
+ background-color: #222;
+}
+
+
+/*Image header link*/
+
+img.ba
+{
+ height: 100%;
+ width: 45%;
+ align-items: center;
+ float: right;  
+ padding-left: 28.5%;
+}
+
+.col-lg-6
+{
+ 
+ margin-left: auto;
+ margin-right: auto;
+ padding-right: 10px;
+ padding-bottom: 10px;
+}
+
+
+/*Band bio images & Gallery*/
+
+#home .Ab
+{
+ padding-left: 50px;
+ padding-right: 50px;
+}
+
+.bioimagecase .col-lg-12
+{
+ display: inline-block;
+ margin-left: 2%;
+ position: relative;
+ padding-right: 0.6%;
+}
+
+.bioimgsize
+{
+ width: 100%;
+ height: 100%;
+}
+
+.biotext1 
+{
+ color: #333;
+ font-style: italic;
+ text-align: center;
+ font-size: 13px;
+ margin-left: -10%;
+ margin-right: -10%;
+}
+
+.bioimagecase .col-md-4
+{
+ width: 24%;
+}
+
+/*Events*/
+
+#events .Ab
+{
+ padding-left: 50px;
+ padding-right: 50px;
+}
+
+.eventsheader
+{
+ padding-left: none;
+}
+
+.pasteventstext
+{
+ padding-right: 40px;
+ margin-left: 7%;
+ margin-right: 7%;
+}
+
+.eventstext1
+{
+ color: #333;
+ font-style: italic;
+ text-align: center;
+ font-size: 13px;
+ margin-left: -3%;
+ margin-right: -3%;
+}
+
+.eventimg
+{
+ width: 100%;
+ height: 100%;
+}
+
+.eventsimagecase .col-md-4
+{
+ width: 24%;	
+}
+
+.eventsimagecase .col-lg-12
+{
+ display: inline-block;
+ margin-left: 2%;
+ position: relative;
+ padding-right: 0.6%;
+}
+
+.eventsimagecase h4
+{
+ padding-right: 3%;
+}
+
+/*Songs*/
+
+#songs .Ab
+{
+ padding-left: 50px;
+ padding-right: 50px;
+}
+
+.tracksong
+{
+ display: inline-block;
+ font-size: 9.4px;
+ text-align: center;
+ margin-left: 5%;
+ padding-right: 1%;
+}
+
+.songheadtext
+{
+ padding-left: 0.6%;
+}
+
+.col-md-12.boxpadding
+{
+ padding-top: 0%;
+ padding-bottom: 1%;
+ padding-right: 11%;
+}
+
+.songstext
+{
+ padding-left: 18%;
+}
+
+.songstext1
+{
+ color: #333;
+ font-style: italic;
+ text-align: center;
+ font-size: 12.5px;
+ padding-top: 8%;
+ padding-left: 14%;
+ margin-left: -27%;
+ margin-right: -26%;
+}
+
+.songsimagecase
+{
+ padding-left: 14%;
+
+}
+
+.songsimagecase .col-md-4
+{
+ width: 24.8%
+}
+
+.songsimagecase .col-lg-12
+{
+ display: inline-block;
+ margin-left: -10%;
+ padding-right:7%;	
+}
+
+.songsimagecase audio
+{
+ display: inline-block;
+ vertical-align: baseline;
+ width: 95%;
+ margin-left: 4%
+}
+
+.col-md-4 .songimg
+{
+ width: 145px;
+ height: 85px;
+ padding-right: 45%;
+ margin-left: 1%	
+}
+
+.spacingsongs .row
+{
+ margin-right: -40px;
+ margin-left: -50px
+}
+
+.Ab .songsimagecase
+{
+ padding-right: 2%;
+}
+
+.songimg
+{
+ width: 100%;
+ height: 100%;	
+}
+
+img.songimg
+{
+ text-align: center;
+ padding-left: 5%;
+}
+
+a.thumbnail
+{
+ text-decoration: none;
+ border-style: none;
+ border-radius: none; 
+}
+
+a.thumbnail:hover 
+{ 
+ outline: none;
+ outline-style: none; 
+ outline-color: black;
+}
+
+.col-md-3
+{
+ float: right;
+ padding-right: 3%;
+ margin-left: 21%;
+}
+
+.col-md-12.boxpadding
+{
+ float: right;
+ padding-right: 16%;
+}
+
+div.searchbox
+{
+ padding-right: 2%;
+}
+
+
+/*Gallery*/
+
+#gallery .Ab
+{
+ padding-left: 2px;
+ padding-right: 2px;
+}
+
+.galleryheadtext
+{
+ padding-left: 1%;
+}
+
+.gallimg .col-md-4
+{
+ width: 25%;	
+}
+
+
+/*Bookings*/
+
+.col-md-12
+{
+ display: block;
+ padding-left: 17%;
+ padding-top: 1%;
+ padding-bottom: 5%;
+}
+
+.btn-primary 
+{
+ color: #fff;
+ background-color: grey;
+ border-color: grey;
+}
+
+.btn-primary:hover 
+{
+ color: #fff;
+ background-color: #222;
+ border-color: grey;
+}
+
+.submitbtn
+{
+ padding-right: 13%;
+}
+
+.well well-sm .col-md-6
+{
+ width: 45%;
+}
+
+
+/*Footer*/
+
+.footer-bs {
+    background-color: #222;
+	padding: 10px 40px;
+	padding-top: 0px;
+	color: rgba(255,255,255,1.00);
+}
+.footer-bs .footer-brand, .footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { padding:10px 25px; margin-left: 1%; }
+.footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-color: transparent; }
+.footer-bs .footer-brand h2 { margin:0px 0px 10px; }
+.footer-bs .footer-brand p { font-size:12px; color:rgba(255,255,255,0.70); }
+
+.footer-bs .footer-nav ul.pages { list-style:none; padding:0px; font-size: 89%; }
+.footer-bs .footer-nav ul.pages li { padding:5px 0px;}
+.footer-bs .footer-nav ul.pages a { color: grey; font-weight:bold; text-transform:uppercase; }
+.footer-bs .footer-nav ul.pages a:hover { color: white; text-decoration:none; }
+.footer-bs .footer-nav h4 {
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-bottom:10px;
+}
+
+.footer-bs .footer-nav ul.list { list-style:none; padding:0px; }
+.footer-bs .footer-nav ul.list li { padding:5px 0px;}
+.footer-bs .footer-nav ul.list a { color: grey; }
+.footer-bs .footer-nav ul.list a:hover { color: white; text-decoration:none; }
+
+.footer-bs .footer-social ul { list-style:none; padding:0px; }
+.footer-bs .footer-social h4 {
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+.footer-bs .footer-social li { padding:5px 4px;}
+.footer-bs .footer-social a { color: grey;}
+.footer-bs .footer-social a:hover { color:white; text-decoration:none; }
+
+.footer-bs .footer-ns h4 {
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-bottom:10px;
+	text-align: left;
+	padding-left: 1%;
+}
+.footer-bs .footer-ns p { font-size:12px; color:rgba(255,255,255,0.70) ;text-align: left; display: inline-block; }
+
+@media (min-width: 768px) {
+	.footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-left:solid 0px rgba(255,255,255,0.10); }
+}
+
+.input-group input
+{
+ color: #333;
+}
+
+.input-group button
+{
+ color: white;
+ padding-top: 1.4%;
+ background-color: #444;
+ border-color: grey;
+ margin: 5%;
+ margin-left: 0%;
+
+}
+
+.input-group p
+{
+ text-align: left;
+}
+
+.footerimg
+{
+ padding-top: none;
+ padding-left: none;
+ width: 10%;
+ height: 6%;
+ margin-left: 46%;
+}
+
+div.col-md-3.footer-ns.animated.fadeInRight
+{
+ float: left;
+ padding-left: 38.3%;	
+}
+
+.footer-bs .footer-social ul
+{
+ padding-right: 2%;
+}
+
+
+.inputfooter
+{
+ padding-left: -300%;
+ padding-right: 30%;
+}
+
+}
+
+/* Extra small devices (phones, less than 768px)*/
+@media (max-width: 320px){
+
+/*Top padding for all pages*/
+
+.Ab
+{
+ padding-top: 59px;
+ padding-left: 100px;
+ padding-right: 100px;
+}
+
+
+/*Page padding*/
+
+html, body
+{
+ max-height: 100%;
+ max-width: 100%;
+}
+
+ body 
+{
+ overflow-x: hidden !important;
+}
+    
+.container 
+{
+ max-width: 100% !important;
+ overflow-x: hidden !important;
+}
+
+/*Pagetext*/
+
+.homeheadertext
+{
+ padding-right: 6%;
+}
+
+.hometoptext
+{
+ padding-bottom: 1px;
+}
+
+.homebottomtext
+{
+ padding-bottom: 15px;
+}
+
+.eventsbottomtext
+{
+ padding-bottom: 15px;
+ text-align: center;
+ margin-left: -13%;
+ margin-right: -13%;
+}
+
+.songstext
+{
+ padding-bottom: 22px;
+}
+
+.thumbnail img /*for gallery*/
+{
+ padding-bottom: 15px;	
+}
+
+.tancbottomtext
+{
+ padding-bottom: 15px;	
+}
+
+h4
+{
+ text-align: center;
+}
+
+h5
+{
+ text-align: center;
+}
+
+p
+{
+ text-align: center;
+}
+
+
+/*Header image*/
+
+#banner
+{
+ max-width: 100%;
+ max-height: auto;
+}
+
+.imgwrapper 
+{
+ width: 323px;
+ margin-left:-24%;
+ padding-top: 0%;
+}
+
+
+/*Navbar*/
+
+.container1
+{
+ width: 100%;
+}
+
+.navbar-header 
+{
+ padding-top: 10px;
+ padding-right:44%;
+ float:right;
+}
+
+.navbar-inverse
+{
+ width: 100%;
+ padding-bottom: none;
+}
+
+.navbar-right
+{
+ width: 120%;
+ position: relative;
+ padding-top: 1%;
+ padding-left:13%;
+ float:right;
+ font-size: 14px;
+}
+
+.navbar-nav li a
+{
+ padding-top: 10px;
+ padding-bottom: 10px;
+ line-height: 2px
+}
+
+.nav li
+{
+ position: relative;
+ display:inline-block;
+}
+
+ ul  
+{
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ text-align: center;
+ overflow: hidden;
+}
+
+li 
+{
+ display: inline-block;
+}
+
+li a 
+{
+ display: block;
+ color: grey;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+}
+
+li a:hover 
+{
+ color: white;
+ background-color: #222;
+}
+
+
+/*Image header link*/
+
+img.ba
+{
+ width: 54%;
+ float: right;
+ margin-right: -14%;
+ padding-left: 30px;
+}
+
+.col-lg-6
+{
+ 
+ margin-left: auto;
+ margin-right: auto;
+ padding-right: 10px;
+ padding-bottom: 10px;
+}
+
+
+/*Band bio images & Gallery*/
+
+#home .Ab
+{
+ padding-left: 50px;
+ padding-right: 50px;
+}
+
+.bioimagecase .col-lg-12
+{
+ display: inline-block;
+ margin-left: 2%;
+ position: relative;
+ padding-right: 0.6%;
+}
+
+.bioimgsize
+{
+ width: 100%;
+ height: 100%;
+}
+
+.biotext1 
+{
+ color: #333;
+ font-style: italic;
+ text-align: center;
+ font-size: 13px;
+ margin-left: -22%;
+ margin-right: -22%;
+}
+
+.bioimagecase .col-md-4
+{
+ width: 90%;
+}
+
+/*Events*/
+
+#events .Ab
+{
+ padding-left: 50px;
+ padding-right: 50px;
+}
+
+.eventsheadtext
+{
+ padding-top: 0%;
+ padding-right: 7%;
+}
+
+.eventsheader
+{
+ padding-left: none;
+}
+
+.pasteventstext
+{
+ padding-left: 38px;
+ margin-left: 7%;
+ margin-right: 7%;
+}
+
+.eventstext1
+{
+ color: #333;
+ font-style: italic;
+ text-align: center;
+ font-size: 13px;
+ margin-left: -3%;
+ margin-right: -3%;
+}
+
+.eventimg
+{
+ width: 100%;
+ height: 100%;
+}
+
+.eventsimagecase .col-md-4
+{
+ width: 90%;	
+}
+
+.eventsimagecase .col-lg-12
+{
+ display: inline-block;
+ margin-left: 2%;
+ position: relative;
+ padding-right: 0.6%;
+}
+
+.eventsimagecase h4
+{
+ padding-right: 3%;
+}
+
+/*Songs*/
+
+#songs .Ab
+{
+ padding-left: 50px;
+ padding-right: 50px;
+}
+
+.tracksong
+{
+ display: inline-block;
+ font-size: 11px;
+ text-align: left;
+ padding-left: 3px;
+}
+
+.songheadtext
+{
+ padding-top: 0%;
+}
+
+.col-md-12.boxpadding
+{
+ padding-top: 0%;
+ padding-bottom: 1%;
+ padding-right: 11%;
+}
+
+.songstext
+{
+ font-size: 12px;
+ text-align: left;
+ display: inline-block;
+ padding-left: 5%;
+}
+
+.songstext1
+{
+ color: #333;
+ font-style: italic;
+ text-align: left;
+ font-size: 13px;
+ padding-top: 8%;
+ padding-left: 95%;
+ margin-left: -90%;
+ margin-right: -97%;
+}
+
+.songsimagecase
+{
+ padding-left: 14%;
+
+}
+
+.songsimagecase .col-md-4
+{
+ width: 55%
+}
+
+.songsimagecase .col-lg-12
+{
+ display: inline-block;
+ margin-left: -12%;
+}
+
+.songsimagecase audio
+{
+ display: inline-block;
+ vertical-align: baseline;
+ width: 120px;
+}
+
+.col-md-4 .songimg
+{
+ width: 145px;
+ height: 85px;
+ padding-right: 45%;	
+}
+
+.spacingsongs .row
+{
+ margin-right: -14px;
+ margin-left: -50px;
+}
+
+.Ab .songsimagecase
+{
+ padding-right: 2%;
+}
+
+.songimg
+{
+ width: 100%;
+ height: 100%;	
+}
+
+img.songimg
+{
+ text-align: center;
+ padding-left: 5%;
+}
+
+a.thumbnail
+{
+ text-decoration: none;
+ border-style: none;
+ border-radius: none; 
+}
+
+a.thumbnail:hover 
+{ 
+ outline: none;
+ outline-style: none; 
+ outline-color: black;
+}
+
+.col-md-3
+{
+ float: right;
+ padding-left: 4%;
+ padding-right: 1%
+}
+
+.col-md-12.boxpadding
+{
+ float: right;
+ padding-right: 17%;
+}
+
+div.searchbox
+{
+ padding-right: 2%;
+}
+
+
+/*Gallery*/
+
+#gallery .Ab
+{
+ padding-left: 2px;
+ padding-right: 2px;
+}
+
+.Ab .gallimg
+{
+ padding-left: 40px;
+}
+
+.galleryheadtext
+{
+ padding-left: 1%;
+ padding-top: 0%
+}
+
+.gallimg .col-md-4
+{
+ width: 145%;	
+}
+
+
+/*Bookings*/
+
+#bookings .Ab
+{
+ padding-left: 50px;
+ padding-right: 50px;	
+}
+
+.bookingsheadtext
+{
+ padding-top: 0%;
+}
+
+.bookingcase .col-md-12
+{
+ display: inline-block;
+ text-align: center;
+ padding-left: 1%;
+ padding-right: 1%;
+ padding-bottom: 5%;
+ width: 100%;
+}
+
+.btn-primary 
+{
+ color: #fff;
+ background-color: grey;
+ border-color: grey;
+}
+
+.btn-primary:hover 
+{
+ color: #fff;
+ background-color: #222;
+ border-color: grey;
+}
+
+.submitbtn
+{
+ padding-right:32%;
+}
+
+.well well-sm .col-md-6
+{
+ width: 45%;
+}
+
+
+/*Footer*/
+
+.footer-bs {
+    background-color: #222;
+	padding: 10px 40px;
+	padding-top: 0px;
+	color: rgba(255,255,255,1.00);
+}
+.footer-bs .footer-brand, .footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { padding:10px 25px; }
+.footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-color: transparent; }
+.footer-bs .footer-brand h2 { margin:0px 0px 10px; }
+.footer-bs .footer-brand p { font-size:12px; color:rgba(255,255,255,0.70); }
+
+.footer-bs .footer-nav ul.pages { list-style:none; padding:0px; font-size: 89%; }
+.footer-bs .footer-nav ul.pages li { padding:5px 0px;}
+.footer-bs .footer-nav ul.pages a { color: grey; font-weight:bold; text-transform:uppercase; }
+.footer-bs .footer-nav ul.pages a:hover { color: white; text-decoration:none; }
+.footer-bs .footer-nav h4 {
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-bottom:10px;
+}
+
+.footer-bs .footer-nav ul.list { list-style:none; padding:0px; }
+.footer-bs .footer-nav ul.list li { padding:5px 0px;}
+.footer-bs .footer-nav ul.list a { color: grey; }
+.footer-bs .footer-nav ul.list a:hover { color: white; text-decoration:none; }
+
+.footer-bs .footer-social ul { list-style:none; padding:0px; }
+.footer-bs .footer-social h4 {
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+.footer-bs .footer-social li { padding:5px 4px;}
+.footer-bs .footer-social a { color: grey;}
+.footer-bs .footer-social a:hover { color:white; text-decoration:none; }
+
+.footer-bs .footer-ns h4 {
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-bottom:10px;
+	padding-left: 8.5%;
+}
+.footer-bs .footer-ns p { font-size:12px; color:rgba(255,255,255,0.70); padding-left: 8.5%;}
+
+@media (min-width: 768px) {
+	.footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-left:solid 0px rgba(255,255,255,0.10); }
+}
+
+.input-group-btn .btn
+{
+ z-index: 2;
+ margin-left: -1px;
+ background-color: #D3D3D3;
+ border-color: #D3D3D3;
+}
+
+.input-group-btn .btn span:hover
+{
+ z-index: 2;
+ margin-left: -1px;
+ color: white;
+}
+
+div.col-md-3.footer-ns.animated.fadeInRight
+{
+ float: left;
+ padding-left: 10%;	
+}
+
+.input-group button
+{
+ color: white;
+ padding-top: 1.4%;
+ background-color: #444;
+ border-color: grey;
+ margin: 5%;
+ margin-left: 0%;
+}
+
+.input-group input
+{
+ color: #333;
+ padding-left: 6%;	
+}
+
+.input-group p
+{
+ text-align: left;
+ margin-left: -13%;
+}
+
+.footerimg
+{
+ padding-top: none;
+ padding-left: none;
+ width: 27%;
+ height: 5%;
+ margin-left: 38%;
+}
+
+.footer-bs .footer-social ul
+{
+ padding-right: 2%;
+}
+
+.inputfooter
+{
+ padding-left: 8%;
+ padding-right: 8%;
+}
+
+}

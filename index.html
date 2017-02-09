@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app='AppS1'>
+<head>
+    <title>The Monkees</title>
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+    <script type="text/javascript" src="bower_components/angular-route/angular-route.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8"/>
+    <style type="text/css">
+        body {
+         padding-top: 51px;            
+        }
+    </style>
+</head>
+
+<!--Header and Navbar-->
+<body>
+   <header id="header">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+     <div class="container1">
+          <div class="navbar-header">
+              <a class="navbar-brand" href="#/">
+                <img class="ba" src="/assets/images/themonkeeslogo.png" alt="">
+              </a>
+          </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#/">Home</a></li>
+                <li><a href="#/events">Events</a></li>
+                <li><a href="#/songs">Songs</a></li>
+				        <li><a href="#/gallery">Gallery</a></li>
+				        <li><a href="#/bookings">Bookings</a></li>
+            </ul>
+         </div>
+     </nav>
+    </header>
+
+    <!--Main content and injected views-->
+    <div id="main">
+      <div ng-view>
+        
+      </div>  
+    </div>
+    
+    <!---Footer-->
+    <footer class="footer-bs" data-ng-controller='FooterController'>
+
+        <div class="row">
+          <div class="col-md-3 footer-brand animated fadeInLeft">
+              <img class="footerimg" src="/assets/images/themonkeeslogofooter.png" alt="">
+                <p>Suspendisse hendrerit tellus laoreet luctus pharetra. Aliquam porttitor vitae orci nec ultricies. Curabitur vehicula, libero eget faucibus faucibus, purus erat eleifend enim, porta pellentesque ex mi ut sem</p>
+                <p>© 2016 All rights reserved Support: Support@MarkW.com</p>
+            </div>
+          <div class="col-md-4 footer-nav animated fadeInUp">
+              <h4>Menu</h4>
+              <div class="col-md-6">
+                    <ul class="pages">
+                        <li><a href="#/">Home</a></li>
+                        <li><a href="#/events">Events</a></li>
+                        <li><a href="#/songs">Songs</a></li>
+                        <li><a href="#/gallery">Gallery</a></li>
+                        <li><a href="#/bookings">Bookings</a></li>
+                    </ul>
+                </div>
+              <div class="col-md-6">
+                    <ul class="list">
+                        <li><a href="#/about%20us">About Us</a></li>
+                        <li><a href="#/contacts">Contacts</a></li>
+                        <li><a href="#/terms%20&%20conditions">Terms & Conditions</a></li>
+                        <li><a href="#privacy%20policy">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+          <div class="col-md-2 footer-social animated fadeInDown">
+              <h4>Follow Us</h4>
+                <ul>
+                  <li><a href="https://www.facebook.com">Facebook</a></li>
+                  <li><a href="https://twitter.com">Twitter</a></li>
+                  <li><a href="https://www.youtube.com">Youtube</a></li>
+                </ul>
+            </div>
+          <div class="col-md-3 footer-ns animated fadeInRight">
+              <h4>Newsletter</h4>
+                <p>Subscribe to our newsletter</p>
+                   
+                   <div class="inputfooter">
+                    <div class="input-group">
+
+                    <div>
+                     <form name="myForm">
+                      <input type="email" name="email" data-ng-model="email" required>
+                      <button data-ng-disabled="myForm.$invalid" data-ng-type="submit" data-ng-click="someEmail()">Submit</button>
+                      <div class="validtxt">
+                      <span data-ng-show="myForm.email.$dirty && myForm.email.$invalid">
+                      <span data-ng-show="myForm.email.$error.required">Email is required.</span>
+                      <span data-ng-show="myForm.email.$error.email">Invalid email address.</span>
+                      </span> </div>
+                     </form>
+                    </div>
+                      
+                   </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<script src='js/app.js'></script>
+<script src='js/controller.js'></script>
+<script src='js/directive.js'></script>
+<script src='js/service.js'></script>
+</body>
+</html>
