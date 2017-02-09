@@ -8,11 +8,11 @@ angular.module('RouteControllers', [])
     .controller('SongsController', function($scope, $filter, singles) {
         $scope.title = "songs";
         $scope.singles = singles.getAllSingles();
-        $scope.singles2 = $scope.singles;
+        $scope.filteredsingles = $scope.singles;
         $scope.$watch('search', function(val)
         {
 
-          $scope.singles = $filter('filter')($scope.singles2, val);
+          $scope.singles = $filter('filter')($scope.filteredsingles, val);
 
         });
 
