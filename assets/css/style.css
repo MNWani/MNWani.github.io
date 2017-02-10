@@ -413,7 +413,7 @@ audio
 
 
 /* Medium devices (desktops, 992px and up) */
-@media (max-width: 992px){
+@media only screen and (min-width: 321px) and (max-width: 992px){
 
 /*Top padding for all pages*/
 
@@ -972,7 +972,7 @@ div.validtxt
 
 
 /* Small devices (tablets, 768px and up) */
-@media (max-width: 768px){
+@media only screen and (min-width: 321px) and (max-width: 768px){
 
 /*Top padding for all pages*/
 
@@ -1540,13 +1540,13 @@ div.col-md-3.footer-ns.animated.fadeInRight
 }
 
 /* Extra small devices (phones, less than 768px)*/
-@media (max-width: 320px){
+@media only screen and (max-width: 320px){
 
 /*Top padding for all pages*/
 
 .Ab
 {
- padding-top: 59px;
+ padding-top: 52px;
  padding-left: 100px;
  padding-right: 100px;
 }
@@ -1575,7 +1575,8 @@ html, body
 
 .homeheadertext
 {
- padding-right: 6%;
+ padding-right: 8%;
+ margin-left: 7%;
 }
 
 .hometoptext
@@ -1586,6 +1587,7 @@ html, body
 .homebottomtext
 {
  padding-bottom: 15px;
+ margin-right: 5px;
 }
 
 .eventsbottomtext
@@ -1637,9 +1639,17 @@ p
 
 .imgwrapper 
 {
- width: 323px;
- margin-left:-24%;
+ width: 370px;
+ margin-left: -33%;
  padding-top: 0%;
+}
+
+img.img-responsive
+{
+ display: block;
+ max-width: 100%;
+ height: auto;
+ margin-left: -8%;
 }
 
 
@@ -1789,7 +1799,8 @@ img.ba
 
 .eventsheader
 {
- padding-left: none;
+ padding-right: 7%;
+ margin-left: 12%;
 }
 
 .pasteventstext
@@ -1915,7 +1926,7 @@ img.ba
 .spacingsongs .row
 {
  margin-right: -14px;
- margin-left: -50px;
+ margin-left: -1px;
 }
 
 .Ab .songsimagecase
@@ -1967,6 +1978,10 @@ div.searchbox
  padding-right: 2%;
 }
 
+audio
+{
+ margin-left: -1%;
+}
 
 /*Gallery*/
 
