@@ -1557,7 +1557,7 @@ div.col-md-3.footer-ns.animated.fadeInRight
 html, body
 {
  max-height: none;
- max-width: 374px;
+ max-width: 375px;
 }
 
  body 
@@ -1639,8 +1639,8 @@ p
 
 .imgwrapper 
 {
- width: 377px;
- margin-left: -8%;
+ width: 375px;
+ margin-left: -7.1%;
  padding-top: 0%;
 }
 
