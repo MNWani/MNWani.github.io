@@ -1556,8 +1556,8 @@ div.col-md-3.footer-ns.animated.fadeInRight
 
 html, body
 {
- max-height: 100%;
- max-width: 100%;
+ max-height: none;
+ max-width: 374px;
 }
 
  body 
@@ -1913,8 +1913,9 @@ img.ba
 {
  display: inline-block;
  vertical-align: baseline;
- width:150px;
- margin-left: 9%;
+ width: 66px;
+ margin-left: 48px;
+ margin-bottom: 28px;
 }
 
 .col-md-4 .songimg
