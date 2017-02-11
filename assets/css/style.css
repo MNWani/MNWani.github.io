@@ -1981,9 +1981,10 @@ div.searchbox
 
 audio
 {
- margin-left: -10%;
+ margin-left: %;
  height:100px;
  padding-left: 18%;
+ padding-right: 18%;
 }
 
 /*Gallery*/
