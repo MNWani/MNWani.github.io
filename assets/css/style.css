@@ -1983,8 +1983,9 @@ audio
 {
  margin-left: %;
  height:100px;
- padding-left: 18%;
- padding-right: 18%;
+ padding-left: ;
+ padding-right: ;
+ margin-left: -18%;
 }
 
 /*Gallery*/
