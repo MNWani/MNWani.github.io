@@ -1913,7 +1913,7 @@ img.ba
  display: inline-block;
  vertical-align: baseline;
  width: 147px;
- 
+ margin-left: -18%;
  margin-bottom: 28px;
 }
 
@@ -1984,7 +1984,6 @@ audio
  margin-left: -1%;
  height:100px;
  padding-left: 30%;
- margin-left: -200%;
 }
 
 /*Gallery*/
