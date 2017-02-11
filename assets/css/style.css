@@ -1920,7 +1920,8 @@ img.ba
 .col-md-4 .songimg
 {
  width: 200px;
- height: 114px;	
+ height: 114px;
+ margin-left: 12%;	
 }
 
 .spacingsongs .row
@@ -1931,7 +1932,7 @@ img.ba
 
 .Ab .songsimagecase
 {
- padding-right: 2%;
+ padding-right: ;
 }
 
 .songimg
