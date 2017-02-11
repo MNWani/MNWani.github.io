@@ -1912,7 +1912,7 @@ img.ba
 {
  display: inline-block;
  vertical-align: baseline;
- width: 210px;
+ 
  margin-left: 8px;
  margin-bottom: 28px;
 }
@@ -1983,7 +1983,7 @@ audio
 {
  margin-left: -1%;
  height:100px;
- width:40px;
+
 }
 
 /*Gallery*/
