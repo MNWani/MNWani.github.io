@@ -1887,8 +1887,8 @@ img.ba
  font-style: italic;
  font-size: 13px;
  padding-left: 95%;
- margin-left: -90%;
- margin-right: -90%;
+ margin-left: -90px;
+ margin-right: -90px;
 }
 
 .songsimagecase
@@ -1919,9 +1919,8 @@ img.ba
 
 .col-md-4 .songimg
 {
- width: 190px;
- height: 114px;
- margin-left: 7%;	
+ width: 200px;
+ height: 114px;	
 }
 
 .spacingsongs .row
