@@ -1633,8 +1633,6 @@ p
 
 #banner
 {
- max-width: ;
- max-height: ;
  margin-left: -18.2%;
 }
 
@@ -1852,8 +1850,8 @@ img.ba
 
 #songs .Ab
 {
- padding-left: 50px;
- padding-right: 50px;
+ padding-left: ;
+ padding-right: ;
 }
 
 .tracksong
