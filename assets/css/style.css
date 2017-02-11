@@ -1912,7 +1912,6 @@ img.ba
 {
  display: inline-block;
  vertical-align: baseline;
- width: px;
  margin-bottom: 28px;
 }
 
@@ -1980,7 +1979,7 @@ div.searchbox
 
 audio
 {
- margin-left: %;
+ margin-left: 1%;
  height:100px;
  padding-left: ;
  padding-right: ;
