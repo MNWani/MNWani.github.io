@@ -1647,7 +1647,7 @@ p
 img.img-responsive
 {
  display: block;
- max-width: 100%;
+ max-width: 375px;
  height: auto;
  margin-left: -8%;
 }
@@ -1657,7 +1657,8 @@ img.img-responsive
 
 .container1
 {
- width: 100%;
+ max-width: 100% !important;
+ overflow-x: hidden !important;
 }
 
 .navbar-header 
