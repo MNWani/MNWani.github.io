@@ -1878,17 +1878,17 @@ img.ba
 {
  font-size: 13px;
  display: inline-block;
- margin-left: 42%;
+ text-align: left;
+ margin-left: -8px
 }
 
 .songstext1
 {
  color: #333;
  font-style: italic;
- font-size: 13px;
- padding-left: 95%;
- margin-left: -90px;
- margin-right: -90px;
+ font-size: 12px;
+ text-align: left;
+ margin-left: -3%;
 }
 
 .songsimagecase
@@ -1912,8 +1912,8 @@ img.ba
 {
  display: inline-block;
  vertical-align: baseline;
- width: 66px;
- margin-left: 48px;
+ width: 210px;
+ margin-left: 8px;
  margin-bottom: 28px;
 }
 
