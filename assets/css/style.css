@@ -2100,7 +2100,7 @@ audio
   margin-bottom: 10px;
   margin-left: 30%;
 }
-.footer-bs .footer-ns p { font-size:12px; color:rgba(255,255,255,0.70); margin-left: -11.5%; }
+.footer-bs .footer-ns p { font-size:12px; color:rgba(255,255,255,0.70); margin-left: 20%; }
 
 @media (min-width: 768px) {
 	.footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-left:solid 0px rgba(255,255,255,0.10); }
