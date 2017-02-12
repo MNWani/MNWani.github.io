@@ -1913,8 +1913,7 @@ img.ba
  display: inline-block;
  vertical-align: baseline;
  margin-bottom: 28px;
- margin-left: 60%;
- padding-left: 40%;
+ padding-left: -40%;
 }
 
 .col-md-4 .songimg
