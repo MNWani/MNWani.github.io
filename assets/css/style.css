@@ -1981,8 +1981,6 @@ audio
 {
  margin-left: 5%;
  height:100px;
- padding-left: ;
- padding-right: ;
 }
 
 /*Gallery*/
@@ -2096,13 +2094,13 @@ audio
 .footer-bs .footer-social a:hover { color:white; text-decoration:none; }
 
 .footer-bs .footer-ns h4 {
-	font-size: 11px;
-	text-transform: uppercase;
-	letter-spacing: 3px;
-	margin-bottom:10px;
-	padding-left: 8.5%;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+  margin-left: 34%;
 }
-.footer-bs .footer-ns p { font-size:12px; color:rgba(255,255,255,0.70); padding-left: 8.5%; }
+.footer-bs .footer-ns p { font-size:12px; color:rgba(255,255,255,0.70); margin-left: -11.5%; }
 
 @media (min-width: 768px) {
 	.footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-left:solid 0px rgba(255,255,255,0.10); }
@@ -2142,7 +2140,7 @@ div.col-md-3.footer-ns.animated.fadeInRight
 .input-group input
 {
  color: #333;
- padding-left: 6%;	
+ margin-left: -23%;	
 }
 
 .input-group p
